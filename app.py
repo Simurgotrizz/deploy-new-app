@@ -69,4 +69,5 @@ with st.container():
         st.write("[Subway Surfers>](https://poki.com/en/g/subway-surfers)")
         st.write("[Fireboy and lavagirl>](https://www.coolmathgames.com/0-fireboy-and-water-girl-in-the-forest-temple)")
         st.write("[Motorx3m>](https://poki.com/en/g/moto-x3m)")
-        
+        st.write("[Stickman hook>](https://poki.com/en/g/stickman-hook)")
+        st.write("[Temple run 2>](https://poki.com/en/g/temple-run-2)")
