@@ -2,7 +2,7 @@ import requests
 import streamlit as st
 from streamlit_lottie import st_lottie 
 
-st.set_page_config(page_title="Simur.inc", page_icon=":tada:", layout="wide")
+st.set_page_config(page_title="NO SIGN UP A.I", layout="wide")
 
 def load_lottieurl(url):
     r = requests.get(url)
@@ -15,7 +15,7 @@ lottie_coding = load_lottieurl("https://assets3.lottiefiles.com/packages/lf20_3r
 with st.container():
     st.subheader("Hi i am Simur Samuel :wave:")
     st.write("A seventh grader from Crews Middle school")
-    st.write("i am passionate about learning new aspects of python programming it is a very easy and efficent way to code")
+    st.write("I am passionate about learning new parts of python")
     st.write("[Learn More>](https://www.python.org/downloads/)")
 
 def load_lottieurl2(url1):
@@ -40,8 +40,8 @@ with st.container():
     with left_column:
         st.header("What I Do")
         st.write("##")
-        st.write("what I do is I like to build electronic objects then code them I usually use the arduino as my main board but I also code in python")
-        st.write("[Learn More>](https://www.bing.com/search?pglt=41&q=arduino&cvid=fb5ca6b44f8d46b99846f6520be41805&aqs=edge.1.69i57j46j0l2j46j0l4.2516j0j1&FORM=ANNTA1&PC=HCTS)")
+        st.write("I like coding and upgrading ai and creating safe agi for humanity")
+        st.write("[Learn More>](https://en.wikipedia.org/wiki/Artificial_intelligence)")
 
 with right_column:
     st_lottie(lottie_coding, height=300, key="coding")
@@ -52,7 +52,7 @@ with st.container():
     with text_column:
         st.header("My Projects")
         st.write("##")
-        st.write("My latest projects are a bionic arm that is alomst finished i just need to find a cable to attach the motherboard to my computer to transfer the code and the other one is a arduino controlled alpha-bot that i do not know how to use but im done building it.")
+        st.write("I am working on an A.I being that you can test out on the bottom and if follow the link bellow it will take you to my e-commerce company")
 
 with image_column:
     st_lottie(lottie_coding1, height=150, key="coding1")
@@ -62,12 +62,5 @@ with image_column:
 
 with st.container():
     st.write("---")
-    text1_column, game_column= st.columns(2)
-    with text_column:
-        st.header("Games")
-        st.write("##")
-        st.write("[Subway Surfers>](https://poki.com/en/g/subway-surfers)")
-        st.write("[Fireboy and lavagirl>](https://www.coolmathgames.com/0-fireboy-and-water-girl-in-the-forest-temple)")
-        st.write("[Motorx3m>](https://poki.com/en/g/moto-x3m)")
-        st.write("[Stickman hook>](https://poki.com/en/g/stickman-hook)")
-        st.write("[Temple run 2>](https://poki.com/en/g/temple-run-2)")
+    st.title("J.A.R.V.I.S")
+    st.write("")
