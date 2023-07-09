@@ -24,7 +24,7 @@ def load_lottieurl2(url1):
         return None
     return r.json()
 
-lottie_coding1 = load_lottieurl2("https://assets1.lottiefiles.com/packages/lf20_yy8zQVN03K.json")
+lottie_coding1 = load_lottieurl2("https://assets9.lottiefiles.com/packages/lf20_2aeiRxOcfs.json")
 
 def load_lottieurl3(url2):
     r = requests.get(url2)
@@ -32,7 +32,7 @@ def load_lottieurl3(url2):
         return None
     return r.json()
 
-lottie_coding2 = load_lottieurl3("https://assets6.lottiefiles.com/packages/lf20_fN91t3YtTf.json")
+lottie_coding2 = load_lottieurl3("https://assets9.lottiefiles.com/packages/lf20_itilDAyVNt.json")
 
 with st.container():
     st.write("---")
@@ -52,7 +52,8 @@ with st.container():
     with text_column:
         st.header("My Projects")
         st.write("##")
-        st.write("I am working on an A.I being that you can test out on the bottom and if follow the link bellow it will take you to my e-commerce company")
+        st.write("I am working on an A.I being that you can test out on the bottom and if follow the link bellow it will take you to my e-commerce company Axum.com")
+        st.write("[Axum.com>](http://10.0.0.83:8501)")
 
 with image_column:
     st_lottie(lottie_coding1, height=150, key="coding1")
@@ -63,4 +64,4 @@ with image_column:
 with st.container():
     st.write("---")
     st.title("J.A.R.V.I.S")
-    st.write("")
+    st.write("##")
