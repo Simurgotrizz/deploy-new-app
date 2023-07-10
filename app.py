@@ -65,3 +65,4 @@ with st.container():
     st.write("---")
     st.title("J.A.R.V.I.S")
     st.write("##")
+    st.button("J.A.R.V.I.S")
