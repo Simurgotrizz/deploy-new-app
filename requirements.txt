@@ -1,7 +1,6 @@
 streamlit_lottie
 pyttsx3
 datetime
-speech_recognition
 webbrowser
 os
 wikipedia
