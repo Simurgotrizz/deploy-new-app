@@ -1,7 +1,6 @@
 streamlit_lottie
 pyttsx3
 datetime
-os
 wikipedia
 time
 datetime
