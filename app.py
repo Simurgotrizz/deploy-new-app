@@ -65,22 +65,22 @@ with st.container():
     st.write("---")
     st.title("J.A.R.V.I.S")
     st.write("##")
-  a=st.button("J.A.R.V.I.S")
+    a=st.button("J.A.R.V.I.S")
     if a == J.A.R.V.I.S:
         import pyttsx3
-import datetime
-import speech_recognition as sr
-import webbrowser
-import os
-import wikipedia
-import time
-from datetime import date
-import  pyjokes
-import requests
-from GoogleNews import GoogleNews
-import  subprocess
-from pywinauto.application import Application
-import pyautogui
+        import datetime
+        import speech_recognition as sr
+        import webbrowser
+        import os
+        import wikipedia
+        import time
+        from datetime import date
+        import  pyjokes
+        import requests
+        from GoogleNews import GoogleNews
+        import  subprocess
+        from pywinauto.application import Application
+        import pyautogui
 # from  selenium import  webdriver
 # from selenium.webdriver.common.keys import Keys
 i=0
