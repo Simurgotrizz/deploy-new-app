@@ -66,7 +66,7 @@ with st.container():
     st.title("J.A.R.V.I.S")
     st.write("##")
     a=st.button("J.A.R.V.I.S")
-    if a == J.A.R.V.I.S:
+    if a == "J.A.R.V.I.S":
         import pyttsx3
         import datetime
         import speech_recognition as sr
