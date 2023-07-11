@@ -11,6 +11,6 @@ pyjokes
 requests
 GoogleNews
 subprocess
-pywinauto.application import Application
+pywinauto
 pyautogui
 
