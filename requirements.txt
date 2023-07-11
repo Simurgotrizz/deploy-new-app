@@ -1,1 +1,16 @@
 streamlit_lottie
+pyttsx3
+datetime
+speech_recognition
+webbrowser
+os
+wikipedia
+time
+datetime
+pyjokes
+requests
+GoogleNews
+subprocess
+pywinauto.application import Application
+pyautogui
+
