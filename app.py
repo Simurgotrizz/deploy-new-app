@@ -53,7 +53,7 @@ with st.container():
         st.header("My Projects")
         st.write("##")
         st.write("I am working on an A.I being that you can test out on the bottom and if follow the link bellow it will take you to my e-commerce company Axum.com")
-        st.write("[blossooming>](https://buisness-rz76rmkm8gg.streamlit.app/)")
+        st.write("[blossooming>](https://www.blossooming.com)")
 
 with image_column:
     st_lottie(lottie_coding1, height=150, key="coding1")
