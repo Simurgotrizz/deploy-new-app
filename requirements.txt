@@ -8,4 +8,4 @@ requests
 GoogleNews
 pywinauto
 pyautogui
-
+speech_recognition
