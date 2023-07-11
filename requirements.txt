@@ -2,7 +2,6 @@ streamlit_lottie
 pyttsx3
 datetime
 wikipedia
-time
 datetime
 pyjokes
 requests
