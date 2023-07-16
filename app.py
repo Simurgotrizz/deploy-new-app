@@ -748,7 +748,7 @@ with st.container():
                         time.sleep(0.5)
                         pyautogui.write('chrome')
                         pyautogui.press('enter')
-                    elif 'open mozilla firefox' in queuery:
+                    elif 'open mozilla firefox' in queuery: 
                         spacek('OK.')
                         pyautogui.hotkey('Win', 's')
                         time.sleep(0.5)
