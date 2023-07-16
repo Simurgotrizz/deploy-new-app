@@ -962,7 +962,7 @@ with st.container():
                         spacek('OK.')
                         pyautogui.hotkey('Win', 'r')
                         time.sleep(0.5)
-                        pyautogui.write('"C:\\Program Files\\Autodesk\\AutoCAD Mechanical 2022\\acad.exe"')
+                        pyautogui.write('"C:\\Program Files\\Autodesk\\AutoCAD Mechanical 2022\\acad.exe"') 
                         pyautogui.press('enter')
                     elif 'open autodesk autocad architecture' in queuery or 'open autocad architecture' in queuery:
                         spacek('OK.')
