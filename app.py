@@ -947,4 +947,4 @@ with st.container():
                         pyautogui.press('enter')
                     elif 'open autodesk autocad plant 3d' in queuery or 'open autocad plant 3d' in queuery:
                         spacek('OK.')
-                        pyautogui.hot""""
+                        pyautogui.hot"""
