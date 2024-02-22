@@ -1,7 +1,7 @@
-import requests
+'''import requests
 import streamlit as st
 from streamlit_lottie import st_lottie
-"""import pyttsx3
+import pyttsx3
 import datetime
 import speech_recognition as sr
 import webbrowser
@@ -947,4 +947,4 @@ with st.container():
                         pyautogui.press('enter')
                     elif 'open autodesk autocad plant 3d' in queuery or 'open autocad plant 3d' in queuery:
                         spacek('OK.')
-                        pyautogui.hot"""
+                        pyautogui.hot''''
