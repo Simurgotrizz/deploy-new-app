@@ -1,4 +1,4 @@
-'''import requests
+import requests
 import streamlit as st
 from streamlit_lottie import st_lottie
 import pyttsx3
@@ -13,7 +13,7 @@ import pyjokes
 from GoogleNews import GoogleNews
 import subprocess
 from pywinauto.application import Application
-import pyautogui"""
+import pyautogui
 
 st.set_page_config(page_title="Sophistication+", layout="wide")
 
