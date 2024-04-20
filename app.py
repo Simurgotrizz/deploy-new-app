@@ -10,7 +10,7 @@ import wikipedia
 import time
 from datetime import date
 import pyjokes
-from GoogleNews import GoogleNews
+from GoogleNews import GoogleNews 
 import subprocess
 from pywinauto.application import Application
 import pyautogui
